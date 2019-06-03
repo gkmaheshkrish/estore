@@ -46,11 +46,11 @@ export default class CartTotals extends Component {
                   clearCart={clearCart}
                   history={history}
                   </PayPalButton> {*/}
-                <Button className="btn btn-outline-danger text-uppercase mb-3 px-5"
+                <button className="btn btn-outline-danger text-uppercase mb-3 px-5"
                     type="button"
                     onClick={() => {
                       prompt("SUCCESS");
-                    }}>PAY</Button>
+                    }}>PAY</button>
               </div>
             </div>
           </div>
