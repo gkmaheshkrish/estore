@@ -41,11 +41,16 @@ export default class CartTotals extends Component {
                   <span className="text-title"> total :</span>{" "}
                   <strong>$ {cartTotal} </strong>
                 </h5>
-                <PayPalButton>
+             /*   <PayPalButton>
                   totalAmount={cartTotal}
                   clearCart={clearCart}
                   history={history}
-                  </PayPalButton>
+                  </PayPalButton> */
+                <Button className="btn btn-outline-danger text-uppercase mb-3 px-5"
+                    type="button"
+                    onClick={() => {
+                      prompt("SUCCESS");
+                    }}>PAY</button>
               </div>
             </div>
           </div>
