@@ -50,7 +50,7 @@ export default class CartTotals extends Component {
                     type="button"
                     onClick={() => {
                       prompt("SUCCESS");
-                    }}>PAY</button>
+                    }}>PAY</Button>
               </div>
             </div>
           </div>
